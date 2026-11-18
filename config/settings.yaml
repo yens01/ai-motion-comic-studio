@@ -1,0 +1,5 @@
+video:
+  width: 1080
+  height: 1920
+  fps: 30
+  target_duration_seconds: 30
