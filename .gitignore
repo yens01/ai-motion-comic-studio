@@ -2,8 +2,10 @@
 __pycache__/
 *.pyc
 .env
+.pytest_cache/
 assets/input/*
 assets/panels/*
 assets/audio/*
 assets/output/*
+assets/projects/*
 !assets/**/.gitkeep

@@ -1,5 +1,49 @@
 video:
-  width: 1080
-  height: 1920
+  shorts:
+    width: 1080
+    height: 1920
+  youtube:
+    width: 1920
+    height: 1080
   fps: 30
-  target_duration_seconds: 30
+  default_panel_seconds: 3.0
+  end_card_seconds: 3.0
+
+ocr:
+  languages:
+    - ch_tra
+    - en
+
+tts:
+  default_voice: zh-TW-HsiaoChenNeural
+  voices:
+    - id: zh-TW-HsiaoChenNeural
+      label: 女聲 HsiaoChen
+    - id: zh-TW-YunJheNeural
+      label: 男聲 YunJhe
+    - id: zh-TW-HsiaoYuNeural
+      label: 女聲 HsiaoYu
+    - id: zh-CN-XiaoxiaoNeural
+      label: 女聲 Xiaoxiao（簡中）
+    - id: zh-CN-YunxiNeural
+      label: 男聲 Yunxi（簡中）
+    - id: en-US-JennyNeural
+      label: English Jenny
+    - id: en-US-GuyNeural
+      label: English Guy
+
+motion:
+  styles:
+    - zoom_in
+    - zoom_out
+    - pan_left
+    - pan_right
+  default_style: zoom_in
+
+export:
+  next_episode_title: 下一集推薦
+  next_episode_subtitle: 點擊追蹤，繼續觀看
+  default_aspect: shorts
+
+paths:
+  projects_dir: assets/projects
